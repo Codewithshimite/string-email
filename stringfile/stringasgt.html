@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>string assignment</title>
+</head>
+<body>
+  <script>
+
+let email = "shimiteakejelu@yahoomail.com"
+
+
+let symbol = email.indexOf("@");
+// console.log(symbol);
+
+let userName = email.slice(1,symbol);
+
+// console.log (userName);
+
+let domain = email.slice(1);
+// console.log(domain)
+
+
+let mailServer = email.substr(symbol);
+// console.log(mailServer);
+
+let upperCaseUsername = (email.charAt("s"));  //* THis is the uppercase of the first letter of username*//
+// console.log (upperCaseUsername.toUpperCase());
+
+let finalUserName = (upperCaseUsername.toUpperCase()); //* This is the given of the first letter uppercase*//
+// console.log(finalUserName);
+
+
+
+let totalUsername = (finalUserName + userName); //* SO here i joined the final uppercase first letter to username **//
+// console.log(totalUsername);
+
+
+let upperCaseMailserver = (email.charAt("6").toUpperCase())
+// console.log (upperCaseMailserver)
+
+
+
+// console.log( totalUsername + mailServer);
+
+let yourEmail = ( totalUsername + mailServer);
+
+
+console.log(yourEmail);
+
+
+
+
+
+
+
+
+
+
+  </script>
+</body>
+</html>
